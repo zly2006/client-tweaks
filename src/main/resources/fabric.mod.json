@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "clienttweaks",
+  "version": "${version}",
+  "name": "Client Tweaks",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/clienttweaks/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.github.zly2006.clienttweaks.ClientTweaksClient"
+    ]
+  },
+  "mixins": [
+    "clienttweaks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}

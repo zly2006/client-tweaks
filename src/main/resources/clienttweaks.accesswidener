@@ -1,0 +1,24 @@
+accessWidener   v1	named
+accessible method net/minecraft/entity/Entity setFlag (IZ)V
+accessible field net/minecraft/command/EntitySelector basePredicate Ljava/util/function/Predicate;
+accessible field net/minecraft/command/EntitySelector distance Lnet/minecraft/predicate/NumberRange$FloatRange;
+accessible field net/minecraft/command/EntitySelector positionOffset Ljava/util/function/Function;
+accessible field net/minecraft/command/EntitySelector box Lnet/minecraft/util/math/Box;
+accessible field net/minecraft/command/EntitySelector sorter Ljava/util/function/BiConsumer;
+accessible field net/minecraft/command/EntitySelector senderOnly Z
+accessible field net/minecraft/command/EntitySelector playerName Ljava/lang/String;
+accessible field net/minecraft/command/EntitySelector uuid Ljava/util/UUID;
+accessible field net/minecraft/command/EntitySelector entityFilter Lnet/minecraft/util/TypeFilter;
+mutable field net/minecraft/command/EntitySelector entityFilter Lnet/minecraft/util/TypeFilter;
+accessible field net/minecraft/command/EntitySelector usesAt Z
+accessible method net/minecraft/command/EntitySelector checkSourcePermission (Lnet/minecraft/server/command/ServerCommandSource;)V
+accessible field net/minecraft/command/EntitySelector includesNonPlayers Z
+accessible method net/minecraft/command/EntitySelector getPositionPredicate (Lnet/minecraft/util/math/Vec3d;)Ljava/util/function/Predicate;
+accessible method net/minecraft/command/EntitySelector getEntities (Lnet/minecraft/util/math/Vec3d;Ljava/util/List;)Ljava/util/List;
+accessible method net/minecraft/command/EntitySelector getAppendLimit ()I
+accessible method net/minecraft/client/gui/hud/ChatHud toChatLineX (D)D
+accessible method net/minecraft/client/gui/hud/ChatHud toChatLineY (D)D
+accessible method net/minecraft/client/gui/hud/ChatHud getMessageLineIndex (DD)I
+accessible field net/minecraft/client/gui/hud/ChatHud visibleMessages Ljava/util/List;
+accessible method net/minecraft/client/gui/widget/ButtonWidget <init> (IIIILnet/minecraft/text/Text;Lnet/minecraft/client/gui/widget/ButtonWidget$PressAction;Lnet/minecraft/client/gui/widget/ButtonWidget$NarrationSupplier;)V
+extendable class net/minecraft/client/gui/hud/ChatHudLine$Visible
